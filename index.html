@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Admin Dashboard</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Link to CSS --> 
+     <link rel="stylesheet" href="style.css">                                                                                
+    </head>
+    <body>
+        <div class="dashboard">
+
+            <!-- Sidebar -->
+             <aside class="sidebar">
+                <h2 class="logo"><i class="fa-solid fa-chart-line"></i>MyAdmin</h2>
+                <u1 class="menu">
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-pie"></i>Analytics</a></li>
+                    <li><a href="#"><i class="fa-solid fa-folder"></i>Projects</a></li>
+                    <li><a href="#"><i class="fa-solid fa-Users"></i>Users</a></li>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+                </u1>
+             </aside>
+
+             <!-- Main Content -->
+              <main class="main">
+
+                <!-- Header -->
+                 <header class="header">
+                    <input type="text" placeholder="Search......" class="search-bar">
+                    <div class="user">
+                        <i class="fa-solid fa-bell"></i>
+                        <i class="fa-solid fa-user-circle avatar"></i>
+                    </div>
+                 </header>
+
+                 <!-- Top Cards -->
+                  <section class="cards">
+                    <div class="card">
+                        <h3><i class="fa-solid fa-dollar-sign"></i>Total Sales</h3>
+                        <p>$23,450</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fa-solid fa-user-plus"></i>New Users</h3>
+                        <p>1,240</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fa-solid fa-ticket"></i>Open Tickets</h3>
+                        <p>32</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fa-solid fa-server"></i> Server Uptime</h3>
+                        <p>99.9%</p>
+                    </div>
+                  </section>
+
+                  <!-- Lower Section -->
+                   <section class="content">
+                    <div class="table-box">
+                        <h3><i class="fa-solid fa-users"></i>Recent Users</h3>
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>john@example.com</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Smith</td>
+                                <td>jane@example.com</td>
+                                <td>Inactive</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="activity">
+                        <h3><i class="fa-solid fa-bolt"></i> Activity Feed</h3>
+                        <u1>
+                            <li>User Mike uploaded a file</li>
+                            <li>Server restarted successfully</li>
+                            <li>New project created</li>
+                        </u1>
+                    </div>
+                   </section>
+              </main>
+        </div>
+    </body>
+</html>
